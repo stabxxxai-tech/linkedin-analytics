@@ -1,0 +1,20 @@
+{
+  "profile_url": "https://www.linkedin.com/in/stanislav-bajer",
+  "scrape_date": "2026-03-24",
+  "scrape_time_utc": "2026-03-24T07:16:08.888629Z",
+  "status": "failed",
+  "error": "LinkedIn profile and activity pages are not accessible via web scraping API - returns 404 ENTITY_NOT_FOUND",
+  "details": {
+    "attempted_urls": [
+      "https://www.linkedin.com/in/stanislav-bajer",
+      "https://www.linkedin.com/in/stanislav-bajer/recent-activity/all/"
+    ],
+    "search_attempts": [
+      "site:linkedin.com/posts stanislav-bajer 2026",
+      "site:linkedin.com/posts stanislav-bajer activity:urn"
+    ],
+    "limitation": "LinkedIn blocks direct scraping of profile pages and posts. Alternative approaches needed: authenticated LinkedIn API access, browser automation with login, or third-party data providers."
+  },
+  "posts": [],
+  "recommendation": "To successfully scrape LinkedIn posts, consider: 1) Using LinkedIn's official API with proper authentication and permissions, 2) Browser automation tools (Selenium/Playwright) with authenticated session, 3) Third-party LinkedIn data providers"
+}
