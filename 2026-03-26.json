@@ -1,0 +1,13 @@
+{
+  "date": "2026-03-26",
+  "status": "failed",
+  "error": "CrustData connection not active",
+  "details": {
+    "reason": "LinkedIn native API does not provide a 'list posts' endpoint - it only retrieves specific posts by URN",
+    "required_service": "CrustData",
+    "connection_status": "not_connected",
+    "action_required": "User must connect CrustData via the authentication link to enable LinkedIn profile scraping"
+  },
+  "linkedin_profile": "https://www.linkedin.com/in/stanislav-bajer",
+  "posts": []
+}
