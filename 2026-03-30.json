@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-30",
+  "status": "failed",
+  "error": "CrustData connection not established",
+  "details": {
+    "reason": "Automated LinkedIn scraping requires active CrustData connection",
+    "attempted_at_utc": "2026-03-30T06:15:35Z",
+    "profile_url": "https://www.linkedin.com/in/stanislav-bajer",
+    "connection_status": "Connection initiated but not completed by user",
+    "action_required": "Please connect CrustData to enable daily LinkedIn post scraping",
+    "latest_connection_link": "https://connect.composio.dev/link/lk_H0rdixhEPnaT",
+    "link_expires": "10 minutes from generation (2026-03-30T06:15:49Z)"
+  },
+  "posts": []
+}
