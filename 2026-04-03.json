@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-03",
+  "status": "failed",
+  "error": "CrustData connection not established",
+  "details": {
+    "reason": "Automated LinkedIn scraping requires active CrustData connection",
+    "attempted_at_utc": "2026-04-03T06:15:36Z",
+    "profile_url": "https://www.linkedin.com/in/stanislav-bajer",
+    "connection_status": "Connection has been initiated multiple times but never completed by user",
+    "consecutive_failures": 7,
+    "failure_dates": ["2026-03-28", "2026-03-29", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-03"],
+    "action_required": "Please connect CrustData via the authentication link to enable daily LinkedIn post scraping",
+    "impact": "No LinkedIn post data has been collected since cron job started"
+  },
+  "posts": []
+}
